@@ -1,12 +1,14 @@
-function fetchWithAuth(url: string, method: "POST" | "GET") {}
+{
+  function fetchWithAuth(url: string, method: "POST" | "GET") {}
 
-fetchWithAuth("s", "POST");
-fetchWithAuth("s", "GET");
-// fetchWithAuth("s", "PUT"); // error
+  fetchWithAuth("s", "POST");
+  fetchWithAuth("s", "GET");
+  // fetchWithAuth("s", "PUT"); // error
 
-const a = "qwe"; // : "qwe"
-let b: "asd" = "asd"; // string
+  const a = "qwe"; // : "qwe"
+  let b: "asd" = "asd"; // string
 
-let method = "POST"; // string
+  let method = "POST"; // string
 
-fetchWithAuth("s", method as "POST");
+  fetchWithAuth("s", method as "POST");
+}
