@@ -1,9 +1,9 @@
 {
   let strOrNum: string | number = 5;
 
-  // type of strOrNum = number
-  //   if (strOrNum) {
-  //   }
+  //   type of strOrNum = number
+  if (strOrNum) {
+  }
 
   if (Math.random() > 0.5) {
     strOrNum = 5;
